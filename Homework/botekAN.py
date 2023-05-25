@@ -15,7 +15,7 @@ async def on_ready():
 
 
 @bot.command()
-async def animmem(ctx):
+async def animals(ctx):
     
     images = os.listdir('animal') 
     img_name = random.choice(images)
